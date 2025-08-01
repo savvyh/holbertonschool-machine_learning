@@ -3,6 +3,7 @@
 Module that contains the function matrix_transpose
 """
 
+
 def matrix_transpose(matrix):
     """
     Returns the transpose of the matrix
