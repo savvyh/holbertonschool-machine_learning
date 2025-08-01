@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
+"""
+Module that contains the function matrix_transpose
+"""
 
 def matrix_transpose(matrix):
     """
-    Args:
-        matrix: list of lists of ints/floats
-
-    Returns:
-        The transpose of the matrix
+    Returns the transpose of the matrix
     """
     rows = len(matrix)
     cols = len(matrix[0])
