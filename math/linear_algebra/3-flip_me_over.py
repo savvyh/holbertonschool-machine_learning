@@ -2,7 +2,11 @@
 
 def matrix_transpose(matrix):
     """
-    Return the transpose of a 2D matrix
+    Args:
+        matrix: list of lists of ints/floats
+
+    Returns:
+        The transpose of the matrix
     """
     rows = len(matrix)
     cols = len(matrix[0])
